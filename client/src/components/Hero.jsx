@@ -28,8 +28,7 @@ export const Hero = () => {
     <div className='flex flex-col items-start justify-center px-6 md:px-16 lg:px-24 xl:px-32 text-white bg-[url("/src/assets/heroImage.png")] bg-no-repeat bg-cover bg-center h-screen'>
         <p className='bg-[#49B9FF]/50 px-3.5 py-1 rounded-full mt-20'>The Ultimate Event Planner</p>
         <h1 className='font-playfair text-2x1 md:text-5x1 md:text-[56px] md:leading-[56px] font-bold md:font-extrabold max-w-x1 mt-4'>Discover The Perfect Way To Plan Your Event</h1>
-        <p className='max-w-130 mt-2 text-sm md:text-base'>Unparalleled luxury and comfort await at the world's most exclusive
-        hotels and resorts. Start your journey today</p>
+        <p className='max-w-130 mt-2 text-sm md:text-base'>Plan unforgettable events with ease — book top venues, services, and experiences all in one place.</p>
 
 
     <form onSubmit={onSearch} className='bg-white text-gray-500 rounded-lg px-6 py-4 mt-8 flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto'>
